@@ -165,6 +165,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -308,7 +312,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 49295130}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -331,7 +335,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 50115282}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -410,6 +414,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -428,7 +436,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 52020004}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -483,6 +491,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7caddb6ef26f8464a92e668e98a7d4bd, type: 2}
+    - target: {fileID: 100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 2}
   m_IsPrefabParent: 0
@@ -537,6 +549,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7caddb6ef26f8464a92e668e98a7d4bd, type: 2}
+    - target: {fileID: 100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 2}
   m_IsPrefabParent: 0
@@ -572,7 +588,7 @@ Transform:
   - {fileID: 2144944074}
   - {fileID: 44810934}
   m_Father: {fileID: 1164211507}
-  m_RootOrder: 14
+  m_RootOrder: 9
 --- !u!65 &90092461
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -583,8 +599,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3, y: 2.5, z: 0.25}
-  m_Center: {x: 0, y: 1.25, z: 0}
+  m_Size: {x: 3, y: 1.5, z: 0.25}
+  m_Center: {x: 0, y: 0.75, z: 0}
 --- !u!54 &90092462
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -595,8 +611,8 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -750,6 +766,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -849,7 +869,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 136813380}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -872,7 +892,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 142344801}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -1035,6 +1055,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -1053,7 +1077,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 162661138}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -1260,6 +1284,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -1338,6 +1366,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -1356,7 +1388,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 203146102}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -1493,6 +1525,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -1534,7 +1570,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 224731279}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -1578,7 +1614,7 @@ Transform:
   - {fileID: 1953864298}
   - {fileID: 1035014184}
   m_Father: {fileID: 1164211507}
-  m_RootOrder: 9
+  m_RootOrder: 11
 --- !u!65 &233190829
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1589,8 +1625,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3, y: 2.5, z: 0.25}
-  m_Center: {x: 0, y: 1.25, z: 0}
+  m_Size: {x: 3, y: 1.5, z: 0.25}
+  m_Center: {x: 0, y: 0.75, z: 0}
 --- !u!54 &233190830
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1601,8 +1637,8 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -1653,6 +1689,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7caddb6ef26f8464a92e668e98a7d4bd, type: 2}
+    - target: {fileID: 100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 2}
   m_IsPrefabParent: 0
@@ -1790,6 +1830,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -1927,6 +1971,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -1945,7 +1993,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 256463313}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -1991,7 +2039,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 266184615}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -2070,6 +2118,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -2199,6 +2251,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -2217,7 +2273,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 280236973}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -2261,7 +2317,7 @@ Transform:
   - {fileID: 990789753}
   - {fileID: 980606821}
   m_Father: {fileID: 1164211507}
-  m_RootOrder: 10
+  m_RootOrder: 3
 --- !u!65 &286549152
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2284,8 +2340,8 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -2597,6 +2653,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -2615,7 +2675,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 312129825}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -2638,7 +2698,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 317264673}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -2709,6 +2769,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -2723,7 +2787,7 @@ GameObject:
   - 114: {fileID: 333932802}
   - 114: {fileID: 333932808}
   - 143: {fileID: 333932803}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2744,10 +2808,10 @@ MonoBehaviour:
   pushStrength: 10
   gravity: 20
   groundOffset: 0
-  antiJitter: 0.75
+  antiJitter: 0.3
   accelerateSpeed: 10
-  moveSpeed: 10
   airControl: 0.9
+  moveSpeed: 10
   jump: 10
   childCol: {fileID: 1790810439}
 --- !u!143 &333932803
@@ -2864,6 +2928,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -2882,7 +2950,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 335313167}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -2965,6 +3033,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -3046,7 +3118,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 366522482}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -3148,6 +3220,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -3166,7 +3242,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 377121429}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -3530,7 +3606,7 @@ Transform:
   - {fileID: 493985892}
   - {fileID: 1645336670}
   m_Father: {fileID: 1164211507}
-  m_RootOrder: 4
+  m_RootOrder: 13
 --- !u!65 &442060208
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3541,8 +3617,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3, y: 2.5, z: 0.25}
-  m_Center: {x: 0, y: 1.25, z: 0}
+  m_Size: {x: 3, y: 1, z: 0.25}
+  m_Center: {x: 0, y: 0.5, z: 0}
 --- !u!54 &442060209
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3553,8 +3629,8 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -3691,6 +3767,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -3709,7 +3789,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 453963965}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -3732,7 +3812,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 454431779}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -3811,6 +3891,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -3829,7 +3913,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 461755503}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -3884,6 +3968,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7caddb6ef26f8464a92e668e98a7d4bd, type: 2}
+    - target: {fileID: 100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 2}
   m_IsPrefabParent: 0
@@ -3962,6 +4050,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -4036,6 +4128,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -4058,7 +4154,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 495319376}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -4195,6 +4291,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -4327,6 +4427,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -4345,7 +4449,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 524137263}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -4489,7 +4593,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 567132179}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -4512,7 +4616,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 568350199}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -4659,7 +4763,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 591121890}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -4738,6 +4842,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -4812,6 +4920,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -5008,6 +5120,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -5082,6 +5198,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -5162,7 +5282,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 641012235}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -5745,7 +5865,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 748919499}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -5800,6 +5920,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7caddb6ef26f8464a92e668e98a7d4bd, type: 2}
+    - target: {fileID: 100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 2}
   m_IsPrefabParent: 0
@@ -5874,6 +5998,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -5944,6 +6072,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -6162,6 +6294,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -6236,6 +6372,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -6254,7 +6394,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 837271415}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -6309,6 +6449,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7caddb6ef26f8464a92e668e98a7d4bd, type: 2}
+    - target: {fileID: 100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 2}
   m_IsPrefabParent: 0
@@ -6379,6 +6523,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -6546,7 +6694,7 @@ Transform:
   - {fileID: 1570139278}
   - {fileID: 1504521935}
   m_Father: {fileID: 1164211507}
-  m_RootOrder: 3
+  m_RootOrder: 12
 --- !u!65 &883219410
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6557,8 +6705,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3, y: 2.5, z: 0.25}
-  m_Center: {x: 0, y: 1.25, z: 0}
+  m_Size: {x: 3, y: 1, z: 0.25}
+  m_Center: {x: 0, y: 0.5, z: 0}
 --- !u!54 &883219411
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6569,8 +6717,8 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -6898,7 +7046,7 @@ Transform:
   - {fileID: 1865235543}
   - {fileID: 1505519584}
   m_Father: {fileID: 1164211507}
-  m_RootOrder: 13
+  m_RootOrder: 2
 --- !u!65 &901442934
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6921,8 +7069,8 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -7175,6 +7323,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -7270,7 +7422,7 @@ Transform:
   - {fileID: 893132992}
   - {fileID: 641178149}
   m_Father: {fileID: 1164211507}
-  m_RootOrder: 6
+  m_RootOrder: 10
 --- !u!65 &924982043
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7281,8 +7433,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3, y: 2.5, z: 0.25}
-  m_Center: {x: 0, y: 1.25, z: 0}
+  m_Size: {x: 3, y: 1.5, z: 0.25}
+  m_Center: {x: 0, y: 0.75, z: 0}
 --- !u!54 &924982044
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7293,8 +7445,8 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -7357,6 +7509,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7caddb6ef26f8464a92e668e98a7d4bd, type: 2}
+    - target: {fileID: 100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 2}
   m_IsPrefabParent: 0
@@ -7504,7 +7660,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 964017952}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -7638,6 +7794,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -7656,7 +7816,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 980596349}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -7743,6 +7903,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -7761,7 +7925,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 990942843}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -7846,7 +8010,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 995628533}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -7869,7 +8033,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 995686584}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -7948,6 +8112,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -8130,6 +8298,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -8148,7 +8320,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1016330514}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -8171,7 +8343,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1022542978}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -8194,7 +8366,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1025541674}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -8269,6 +8441,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -8287,7 +8463,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1025858017}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -8549,7 +8725,7 @@ Transform:
   - {fileID: 236475500}
   - {fileID: 1531961555}
   m_Father: {fileID: 1164211507}
-  m_RootOrder: 2
+  m_RootOrder: 8
 --- !u!65 &1039830457
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8560,8 +8736,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3, y: 2.5, z: 0.25}
-  m_Center: {x: 0, y: 1.25, z: 0}
+  m_Size: {x: 3, y: 1.5, z: 0.25}
+  m_Center: {x: 0, y: 0.75, z: 0}
 --- !u!54 &1039830458
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8572,8 +8748,8 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -8718,6 +8894,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -8740,7 +8920,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1079619459}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -8819,6 +8999,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -8837,7 +9021,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1086904413}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -8920,6 +9104,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -8994,6 +9182,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -9012,7 +9204,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1096155400}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -9153,6 +9345,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -9171,7 +9367,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1114317275}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -9283,6 +9479,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -9301,7 +9501,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1140636704}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -9411,6 +9611,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 8105ea8214d92434ead1ef3801057178, type: 2}
+    - target: {fileID: 6400000, guid: d85d3a32fb6157d488e31edf82b7b1c4, type: 2}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d85d3a32fb6157d488e31edf82b7b1c4, type: 2}
   m_IsPrefabParent: 0
@@ -9489,6 +9693,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -9524,7 +9732,7 @@ Transform:
   - {fileID: 1054627547}
   - {fileID: 952576344}
   m_Father: {fileID: 1164211507}
-  m_RootOrder: 1
+  m_RootOrder: 4
 --- !u!65 &1156084075
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9535,8 +9743,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3, y: 2.5, z: 0.25}
-  m_Center: {x: 0, y: 1.25, z: 0}
+  m_Size: {x: 3, y: 2, z: 0.25}
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!54 &1156084076
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9547,8 +9755,8 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -9573,27 +9781,27 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1164211506}
-  m_LocalRotation: {x: 0, y: -0.38268343, z: 0, w: 0.92387956}
-  m_LocalPosition: {x: -17, y: 0, z: 18}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -21, y: 0, z: 18}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: -45, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 1824427211}
-  - {fileID: 1156084074}
-  - {fileID: 1039830456}
-  - {fileID: 883219409}
-  - {fileID: 442060207}
   - {fileID: 1525913535}
-  - {fileID: 924982042}
+  - {fileID: 901442933}
+  - {fileID: 286549151}
+  - {fileID: 1156084074}
   - {fileID: 1775239697}
   - {fileID: 1202143908}
+  - {fileID: 1358147484}
+  - {fileID: 1039830456}
+  - {fileID: 90092460}
+  - {fileID: 924982042}
   - {fileID: 233190828}
-  - {fileID: 286549151}
+  - {fileID: 883219409}
+  - {fileID: 442060207}
   - {fileID: 2131170722}
   - {fileID: 1378636254}
-  - {fileID: 901442933}
-  - {fileID: 90092460}
-  - {fileID: 1358147484}
   m_Father: {fileID: 924419417}
   m_RootOrder: 6
 --- !u!4 &1166663046 stripped
@@ -9796,6 +10004,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -9814,7 +10026,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1196353773}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -9936,7 +10148,7 @@ Transform:
   - {fileID: 1620922288}
   - {fileID: 946027545}
   m_Father: {fileID: 1164211507}
-  m_RootOrder: 8
+  m_RootOrder: 6
 --- !u!65 &1202143909
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9947,8 +10159,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3, y: 2.5, z: 0.25}
-  m_Center: {x: 0, y: 1.25, z: 0}
+  m_Size: {x: 3, y: 2, z: 0.25}
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!54 &1202143910
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9959,8 +10171,8 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -10168,6 +10380,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -10362,6 +10578,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -10436,6 +10656,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -10454,7 +10678,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1279959683}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -10633,7 +10857,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1298182588}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -10704,6 +10928,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -10722,7 +10950,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1299195793}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -10864,6 +11092,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -10942,6 +11174,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -11047,7 +11283,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1332925094}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -11126,6 +11362,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -11144,7 +11384,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1347004807}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -11188,7 +11428,7 @@ Transform:
   - {fileID: 878258908}
   - {fileID: 1444971870}
   m_Father: {fileID: 1164211507}
-  m_RootOrder: 15
+  m_RootOrder: 7
 --- !u!65 &1358147485
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11199,8 +11439,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3, y: 2.5, z: 0.25}
-  m_Center: {x: 0, y: 1.25, z: 0}
+  m_Size: {x: 3, y: 2, z: 0.25}
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!54 &1358147486
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11211,8 +11451,8 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -11287,6 +11527,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -11305,7 +11549,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1363344874}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -11360,6 +11604,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 8105ea8214d92434ead1ef3801057178, type: 2}
+    - target: {fileID: 6400000, guid: 4e11ef4f39bc65e44a4b0755ecac6ea1, type: 2}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4e11ef4f39bc65e44a4b0755ecac6ea1, type: 2}
   m_IsPrefabParent: 0
@@ -11488,6 +11736,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -11506,7 +11758,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1369559694}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -11586,7 +11838,7 @@ Transform:
   - {fileID: 738357409}
   - {fileID: 2025352691}
   m_Father: {fileID: 1164211507}
-  m_RootOrder: 12
+  m_RootOrder: 15
 --- !u!65 &1378636255
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11597,8 +11849,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3, y: 2.5, z: 0.25}
-  m_Center: {x: 0, y: 1.25, z: 0}
+  m_Size: {x: 3, y: 1, z: 0.25}
+  m_Center: {x: 0, y: 0.5, z: 0}
 --- !u!54 &1378636256
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11609,8 +11861,8 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -11688,7 +11940,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1391766999}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -11913,6 +12165,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -11931,7 +12187,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1435988972}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -12158,6 +12414,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -12176,7 +12436,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1467053185}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -12199,7 +12459,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1471216918}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -12378,7 +12638,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1499103467}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -12465,6 +12725,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -12483,7 +12747,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1515611144}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -12629,6 +12893,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -12730,6 +12998,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -12748,7 +13020,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1522490926}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -12788,7 +13060,7 @@ Transform:
   - {fileID: 2041816512}
   - {fileID: 769540452}
   m_Father: {fileID: 1164211507}
-  m_RootOrder: 5
+  m_RootOrder: 1
 --- !u!65 &1525913536
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12811,8 +13083,8 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -12960,7 +13232,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1542122052}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -13039,6 +13311,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -13057,7 +13333,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1548339009}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -13470,6 +13746,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -13488,7 +13768,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1605100557}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -13543,6 +13823,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7caddb6ef26f8464a92e668e98a7d4bd, type: 2}
+    - target: {fileID: 100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 2}
   m_IsPrefabParent: 0
@@ -13621,6 +13905,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -13639,7 +13927,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1614222043}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -13698,6 +13986,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7caddb6ef26f8464a92e668e98a7d4bd, type: 2}
+    - target: {fileID: 100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 2}
   m_IsPrefabParent: 0
@@ -13813,7 +14105,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1668915487}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -13892,6 +14184,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -13910,7 +14206,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1691450643}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -13989,6 +14285,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -14055,6 +14355,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -14409,6 +14713,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -14427,7 +14735,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1741956133}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -14482,6 +14790,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7caddb6ef26f8464a92e668e98a7d4bd, type: 2}
+    - target: {fileID: 100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 2}
   m_IsPrefabParent: 0
@@ -14521,7 +14833,7 @@ Transform:
   - {fileID: 1819274988}
   - {fileID: 1711613364}
   m_Father: {fileID: 1164211507}
-  m_RootOrder: 7
+  m_RootOrder: 5
 --- !u!65 &1775239698
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14532,8 +14844,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3, y: 2.5, z: 0.25}
-  m_Center: {x: 0, y: 1.25, z: 0}
+  m_Size: {x: 3, y: 2, z: 0.25}
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!54 &1775239699
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14544,8 +14856,8 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -14564,7 +14876,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1780852190}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -14752,6 +15064,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -14770,7 +15086,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1787227170}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -14793,7 +15109,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1787900772}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -14813,7 +15129,7 @@ GameObject:
   - 23: {fileID: 1790810438}
   - 65: {fileID: 1790810441}
   - 54: {fileID: 1790810439}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14869,7 +15185,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1790810436}
   serializedVersion: 2
-  m_Mass: 1000
+  m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 0
@@ -14911,7 +15227,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1793615138}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -15098,8 +15414,8 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -15299,6 +15615,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -15373,6 +15693,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -15481,6 +15805,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7caddb6ef26f8464a92e668e98a7d4bd, type: 2}
+    - target: {fileID: 100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 2}
   m_IsPrefabParent: 0
@@ -15578,6 +15906,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -15596,7 +15928,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1901046969}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -15619,7 +15951,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1905787390}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -15814,7 +16146,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1930519082}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -15837,7 +16169,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1932571351}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -15927,7 +16259,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1945130583}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -16006,6 +16338,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -16080,6 +16416,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -16154,6 +16494,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -16172,7 +16516,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1991359422}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -16251,6 +16595,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -16301,6 +16649,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7caddb6ef26f8464a92e668e98a7d4bd, type: 2}
+    - target: {fileID: 100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 2}
   m_IsPrefabParent: 0
@@ -16421,6 +16773,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -16439,7 +16795,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2037786428}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -16526,6 +16882,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -16544,7 +16904,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2045831926}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -16567,7 +16927,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2047203302}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -16717,6 +17077,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -16735,7 +17099,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2083174296}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -16818,6 +17182,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -16836,7 +17204,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2085870058}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -16915,6 +17283,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -16993,6 +17365,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909ae9eab3ac1d841a13c6cc3faa92ee, type: 2}
+    - target: {fileID: 100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1910f6767cf3166448984077d47f3353, type: 2}
   m_IsPrefabParent: 0
@@ -17011,7 +17387,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2112334491}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -17034,7 +17410,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2126114428}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -17129,7 +17505,7 @@ Transform:
   - {fileID: 1459129216}
   - {fileID: 1774215576}
   m_Father: {fileID: 1164211507}
-  m_RootOrder: 11
+  m_RootOrder: 14
 --- !u!65 &2131170723
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17140,8 +17516,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3, y: 2.5, z: 0.25}
-  m_Center: {x: 0, y: 1.25, z: 0}
+  m_Size: {x: 3, y: 1, z: 0.25}
+  m_Center: {x: 0, y: 0.5, z: 0}
 --- !u!54 &2131170724
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -17152,8 +17528,8 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0

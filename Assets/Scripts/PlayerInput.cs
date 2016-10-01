@@ -28,8 +28,9 @@ public class PlayerInput : MonoBehaviour
 		//What should the multi key affect be
 		float mul = 1.0f;
 
-		//Are two keys down
-		if(Mathf.Abs(horizontal) + Mathf.Abs(vertical) == 2) { mul = 0.707106f; } // 1 / (sqrt(2))
+        //Are two keys down
+        // 1.0 / (sqrt(2.0))
+        if (Mathf.Abs(horizontal) + Mathf.Abs(vertical) == 2) { mul = 0.707106f; }
 
 		//Pack into a vec 2
 		inputAxis = new Vector2(horizontal, vertical) * mul;

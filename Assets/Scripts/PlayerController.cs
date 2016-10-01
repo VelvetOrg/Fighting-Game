@@ -15,8 +15,8 @@ public class PlayerController : MonoBehaviour
 
     //Movement properties
     public float accelerateSpeed = 10.0f; //Lerping amount
-	public float moveSpeed = 8.0f; //Units to move in one second
     public float airControl = 0.1f; //Limit movement in the air
+	public float moveSpeed = 8.0f; //Units to move in one second
     public float jump = 10.0f; //Jump force - in units
 
     //Holds the fake collider
@@ -24,13 +24,13 @@ public class PlayerController : MonoBehaviour
 
 	//Privates
 	CharacterController body; //Holds information on events
-    Vector3 contact; //When checking for collision
     Vector3 direction; //Move dir
+    Vector3 contact; //When checking for collision
     RaycastHit hit; //Generaic value
+    Vector2 axis; //Smoothed input axis
 
-    Vector2 axis;
-    float rayDistance;
-    bool grounded;
+    float rayDistance; //Height of collider
+    bool grounded; //Collider
 
     //Set variables
     void Awake ()
@@ -54,7 +54,7 @@ public class PlayerController : MonoBehaviour
 
 		//Move when grounded
         if(grounded)
-        {
+        { 
             //Direction holds the force to apply to the controller
             //Convert to local space - so it will move relative to the mouse look script (once done)
             direction = transform.TransformDirection(new Vector3(axis.x, -antiJitter, axis.y)) * moveSpeed;
@@ -81,7 +81,7 @@ public class PlayerController : MonoBehaviour
         grounded = (g & CollisionFlags.Below) != 0;
 
         //Fake physics
-        childCol.velocity = direction * Time.deltaTime * 100;
+        childCol.velocity = direction * Time.deltaTime;
 	}
 
     //Has a collision hit occured
