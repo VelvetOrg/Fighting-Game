@@ -6,16 +6,21 @@ using System.Collections;
 public class PlayerController : MonoBehaviour
 {
     //Since character controller do not have physics:
+    public float pushStrength = 3.0f;
     public float gravity = 20.0f;
 
     //Collision proerties
     public float groundOffset = 0.3f; //Stay off the ground slightly
     public float antiJitter = 3.0f; //Fix collider rotating randomly
 
-	//Movement properties
+    //Movement properties
+    public float accelerateSpeed = 10.0f; //Lerping amount
 	public float moveSpeed = 8.0f; //Units to move in one second
     public float airControl = 0.1f; //Limit movement in the air
     public float jump = 10.0f; //Jump force - in units
+
+    //Holds the fake collider
+    public Rigidbody childCol;
 
 	//Privates
 	CharacterController body; //Holds information on events
@@ -23,6 +28,7 @@ public class PlayerController : MonoBehaviour
     Vector3 direction; //Move dir
     RaycastHit hit; //Generaic value
 
+    Vector2 axis;
     float rayDistance;
     bool grounded;
 
@@ -35,14 +41,17 @@ public class PlayerController : MonoBehaviour
         //Ray distance should be how far down is the bottom of the collider
         //Assumes transform is in the ctner
         rayDistance = (body.height / 2) + body.radius + groundOffset;
+
+        //Find
+        if(childCol == null) { childCol = GetComponentInChildren<Rigidbody>(); }
     }
 
-    //Has a collision hit occured
-    void OnControllerColliderHit(ControllerColliderHit h) { contact = h.point; }
-
     //Called by the player input class
-    public void Move(Vector2 axis) 
+    public void Move(Vector2 a) 
 	{
+        //Lerp the axis
+        axis = Vector2.Lerp(axis, a, Time.deltaTime * accelerateSpeed); 
+
 		//Move when grounded
         if(grounded)
         {
@@ -70,5 +79,11 @@ public class PlayerController : MonoBehaviour
         //https://docs.unity3d.com/ScriptReference/CharacterController.Move.html
         CollisionFlags g = body.Move(direction * Time.deltaTime);
         grounded = (g & CollisionFlags.Below) != 0;
+
+        //Fake physics
+        childCol.velocity = direction * Time.deltaTime * 100;
 	}
+
+    //Has a collision hit occured
+    void OnControllerColliderHit(ControllerColliderHit h) { contact = h.point; }
 }
