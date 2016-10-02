@@ -13,24 +13,19 @@ using System.Collections;
 public class PlayerInput : MonoBehaviour 
 {
     //Input
-    Vector2 inputAxis;
-    Vector2 mousePos;
+    public Vector2 inputAxis { get; private set; }
+    public Vector2 mousePos { get; private set; }
 
-    //Objects
-    PlayerController attached;
-    MouseLook cam;
-    HeadBob bob;
-
+    //Holds fire input state
+    public enum FireState { Down, Held, Released, None };
+    public FireState fireState { get; private set; }
+    
 	//Get
 	void Awake()
 	{
 		//Initialze values
         mousePos = Vector3.zero;
 		inputAxis = Vector2.zero;
-
-        bob = GetComponentInChildren<HeadBob>();
-        cam = GetComponentInChildren<MouseLook>();
-		attached = GetComponent<PlayerController>();
 	}
 	
 	//Later events may be used
@@ -50,18 +45,13 @@ public class PlayerInput : MonoBehaviour
 		//Pack into a vec 2
 		inputAxis = new Vector2(horizontal, vertical) * mul;
 
-		//Force player to move via the axis
-		attached.Move(inputAxis);
-
-        //Actually use some head bobbing
-        if(bob != null) bob.Bob(attached);
-
         //Get mouse position
         mousePos = new Vector2(Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y"));
-        Vector3 rotation = cam.look(mousePos);
 
-        //Actually roate the player and camera
-        cam.transform.rotation =      Quaternion.Euler(new Vector3(rotation.x,                    rotation.y, cam.transform.rotation.eulerAngles.z));
-        attached.transform.rotation = Quaternion.Euler(new Vector3(attached.transform.rotation.x, rotation.y, attached.transform.rotation.eulerAngles.z));
+        //Set the fire state
+        //if (Input.GetMouseButtonDown(0))    fireState = FireState.Down;
+        //else if (Input.GetMouseButtonUp(0)) fireState = FireState.Released;
+        //else if (Input.GetMouseButton(0))   fireState = FireState.Held;
+        //else                                fireState = FireState.None;
     }
 }
