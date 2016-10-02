@@ -12,18 +12,25 @@ using System.Collections;
 [RequireComponent(typeof(PlayerController))]
 public class PlayerInput : MonoBehaviour 
 {
-	//Input axis will be normalized for multi keys
-	Vector2 inputAxis; //{ public get; private set; }
-	PlayerController attached;
+    //Input
+    Vector2 inputAxis;
+    Vector2 mousePos;
+
+    //Objects
+    PlayerController attached;
+    MouseLook cam;
     HeadBob bob;
 
 	//Get
 	void Awake()
 	{
 		//Initialze values
+        mousePos = Vector3.zero;
 		inputAxis = Vector2.zero;
-		attached = GetComponent<PlayerController>();
+
         bob = GetComponentInChildren<HeadBob>();
+        cam = GetComponentInChildren<MouseLook>();
+		attached = GetComponent<PlayerController>();
 	}
 	
 	//Later events may be used
@@ -48,5 +55,13 @@ public class PlayerInput : MonoBehaviour
 
         //Actually use some head bobbing
         if(bob != null) bob.Bob(attached);
-	}
+
+        //Get mouse position
+        mousePos = new Vector2(Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y"));
+        Vector3 rotation = cam.look(mousePos);
+
+        //Actually roate the player and camera
+        cam.transform.rotation =      Quaternion.Euler(new Vector3(rotation.x,                    rotation.y, cam.transform.rotation.eulerAngles.z));
+        attached.transform.rotation = Quaternion.Euler(new Vector3(attached.transform.rotation.x, rotation.y, attached.transform.rotation.eulerAngles.z));
+    }
 }
