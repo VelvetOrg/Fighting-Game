@@ -1,4 +1,10 @@
-﻿using UnityEngine;
+﻿/* 
+ * Owned by Velvet-Org. Copyright 2016 - 
+ * This code is licenced under: Apache 2.0
+ * Cameron Bell, Ruchir Bapat 
+ */
+
+using UnityEngine;
 using System.Collections;
 
 //This class allows any controller based functions to get user input
@@ -9,6 +15,7 @@ public class PlayerInput : MonoBehaviour
 	//Input axis will be normalized for multi keys
 	Vector2 inputAxis; //{ public get; private set; }
 	PlayerController attached;
+    HeadBob bob;
 
 	//Get
 	void Awake()
@@ -16,6 +23,7 @@ public class PlayerInput : MonoBehaviour
 		//Initialze values
 		inputAxis = Vector2.zero;
 		attached = GetComponent<PlayerController>();
+        bob = GetComponentInChildren<HeadBob>();
 	}
 	
 	//Later events may be used
@@ -37,5 +45,8 @@ public class PlayerInput : MonoBehaviour
 
 		//Force player to move via the axis
 		attached.Move(inputAxis);
+
+        //Actually use some head bobbing
+        if(bob != null) bob.Bob(attached);
 	}
 }
