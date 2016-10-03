@@ -23,6 +23,7 @@ public class Player : MonoBehaviour
 
         //May possibly evaluate to null
         mouseLook        = GetComponentInChildren<MouseLook>();
+       
         headBob          = GetComponentInChildren<HeadBob>();
 
         //Temp
@@ -34,20 +35,10 @@ public class Player : MonoBehaviour
     {
         //Force player to move via the axis
         playerController.Move(playerInput.inputAxis);
-
+        mouseLook.Rotate();   
         //Apply if availible
         if (headBob != null) headBob.Bob(playerController);
-
-        //Apply mouse look
-        if (mouseLook != null)
-        {
-            Vector3 rotation = mouseLook.look(playerInput.mousePos);
-
-            //Actually rotate the player and camera
-            mouseLook.transform.rotation = Quaternion.Euler(new Vector3(rotation.x, rotation.y, mouseLook.transform.rotation.eulerAngles.z));
-            playerController.transform.rotation = Quaternion.Euler(new Vector3(playerController.transform.rotation.x, rotation.y, playerController.transform.rotation.eulerAngles.z));
-        }
-
+      
         //This is handled by player input
         if(equipt != null)
         {
