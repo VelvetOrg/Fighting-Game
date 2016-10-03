@@ -17,10 +17,12 @@ public class HeadBob : MonoBehaviour
     float height; //How high off the ground if is the character
     float counter; //Counters the current position in the sin wave
     Vector3 parent; //Holds last known position of the parent
+    Vector3 initialPosition; //When the game was started pre head bob
 
     //Get the height of the camera
     //Offset so tha bobs around the the center
-    void Start() { height = transform.localPosition.y - (verticalAmount / 2); }
+    void Start() { height = transform.localPosition.y - (verticalAmount / 2);
+        initialPosition = new Vector3(transform.localPosition.x, 0, transform.localPosition.z); }
 
 	//Needs the position of the movement object
     public void Bob(PlayerController player)
@@ -33,7 +35,7 @@ public class HeadBob : MonoBehaviour
         counter += Vector3.Distance(parent, player.transform.position) * speed;
 
         //Update position based on a sine wave
-        transform.localPosition = new Vector3(
+        transform.localPosition = initialPosition + new Vector3(
             Mathf.Sin(counter) * horizontallAmount,
             ((Mathf.Cos(counter * 2) * verticalAmount) * -1) + height, 0);
 

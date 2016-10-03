@@ -14,12 +14,14 @@ public class GunEditor : Editor
     //Get Properties that are conrollable via an enum
     public SerializedProperty fireState;
     public SerializedProperty burstCount;
+    public SerializedProperty layer;
 
     //Grab
     void OnEnable()
     {
         fireState  = serializedObject.FindProperty("fireMode");
         burstCount = serializedObject.FindProperty("burstCount");
+        layer      = serializedObject.FindProperty("ignoreLayers");
     }
 
     //Allow th burst rate values depending on the state of the enum
@@ -35,6 +37,10 @@ public class GunEditor : Editor
         g.attackDuration = EditorGUILayout.FloatField("Attack Duration", g.attackDuration);
         g.range = EditorGUILayout.Slider("Range", g.range, 10, 100);
         g.fireRate = EditorGUILayout.Slider("Fire rate", g.fireRate, 0, 200);
+
+        EditorGUILayout.PropertyField(layer);
+        EditorGUI.showMixedValue = layer.hasMultipleDifferentValues;
+
         g.fireMode = (Gun.Mode)EditorGUILayout.EnumPopup("Fire mode", g.fireMode);
         
         //Get enum and draw burst count if active

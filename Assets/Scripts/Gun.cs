@@ -19,6 +19,9 @@ public class Gun : RangedWeapon
     public int burstCount = 3;
     public float fireRate = 100.0f;
 
+    //An optional laymask apply to the raycast
+    public LayerMask ignoreLayers;
+
     //Check for manual fire
     float nextShoot;
     bool triggerReleased;
@@ -41,6 +44,9 @@ public class Gun : RangedWeapon
         line = GetComponent<LineRenderer>();
         shotDuration = new WaitForSeconds(attackDuration);
     }
+
+    //Temporary - the line renderer is always at the current position
+    void Update() { line.SetPosition(0, end.position); }
 
     //Actually fire the gun
     protected override void Fire()
@@ -70,8 +76,20 @@ public class Gun : RangedWeapon
             RaycastHit hit;
 
             //Draw a line from gun to the resultting raycast
-            line.SetPosition(0, end.position);
-            if (Physics.Raycast(rayOrigin, main.transform.forward, out hit, range)) { line.SetPosition(1, hit.point); }
+            if (Physics.Raycast(rayOrigin, main.transform.forward, out hit, range, ignoreLayers))
+            {
+                //Draw
+                line.SetPosition(1, hit.point);
+
+                //Apply a physics force to the obect if it has a rigidbody
+                // Check if the object we hit has a rigidbody attached
+                if (hit.rigidbody != null)
+                {
+                    //Apply a force
+                    hit.rigidbody.AddForce(-hit.normal * 100.0f);
+                }
+            }
+
             else { line.SetPosition(1, main.transform.position + (main.transform.forward * 50)); }
         }
     }
