@@ -1431,8 +1431,8 @@ GameObject:
   - 114: {fileID: 173086447}
   - 114: {fileID: 173086446}
   - 114: {fileID: 173086445}
-  - 143: {fileID: 173086444}
   - 114: {fileID: 173086448}
+  - 143: {fileID: 173086444}
   m_Layer: 8
   m_Name: Player
   m_TagString: Untagged
@@ -1516,9 +1516,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1806fcfa609edbc4aa14c4a04bcb4a42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  armFollowSpeed: 20
+  armFollowSpeed: 15
   armOffset: {x: 0.5, y: -0.3, z: 0.5}
   hand: {fileID: 1183899296}
+  bobEffect: 0.25
 --- !u!4 &173438089 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: b8b90963a0b621f46a0a589745855e67, type: 2}

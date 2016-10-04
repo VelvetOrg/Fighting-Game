@@ -17,6 +17,9 @@ public class ArmManager : MonoBehaviour
     public Vector3 armOffset; //Where on the screen is the arm
     public Transform hand; //The transform that attaches to the gun
 
+    [Range(0, 1)]
+    public float bobEffect = 0.5f; //How much should the gug bob
+    
     //Privates
     Transform arm; //Stores the parent of the hand
 
@@ -67,13 +70,24 @@ public class ArmManager : MonoBehaviour
         if (arm != null)
         {
             //Position
-            arm.transform.position = mouseLook.transform.position + (Quaternion.Euler(0, targetVerticalRotation, 0) * armOffset);
+            Vector3 targetPos = mouseLook.transform.position;
+
+            //Remove head bob
+            //Slow for now
+            HeadBob bob = mouseLook.gameObject.GetComponent<HeadBob>();
+            if (bob != null) targetPos -= bob.getBobAmount() * bobEffect;
+
+            //Since position is dependant on rotation
+            arm.transform.position = targetPos + (Quaternion.Euler(0, targetVerticalRotation, 0) * armOffset);
 
             //Lerp the rotation
-            targetHorizontalRotation = Mathf.Lerp(targetHorizontalRotation, mouseLook.getTargetXRotation(), Time.deltaTime * armFollowSpeed);
-            targetVerticalRotation = Mathf.Lerp(targetVerticalRotation, mouseLook.getTargetYRotation(), Time.deltaTime * armFollowSpeed);
+            targetHorizontalRotation = mouseLook.getTargetXRotation();
+            targetVerticalRotation = mouseLook.getTargetYRotation();
 
-            arm.transform.rotation = Quaternion.Euler(targetHorizontalRotation, targetVerticalRotation, 0);
+            //targetHorizontalRotation = Mathf.Lerp(targetHorizontalRotation, mouseLook.getTargetXRotation(), Time.deltaTime * armFollowSpeed);
+            //targetVerticalRotation = Mathf.Lerp(targetVerticalRotation, mouseLook.getTargetYRotation(), Time.deltaTime * armFollowSpeed);
+
+            arm.transform.rotation = Quaternion.Lerp(arm.transform.rotation, Quaternion.Euler(targetHorizontalRotation, targetVerticalRotation, 0), Time.deltaTime * armFollowSpeed);
         }
     }
 }

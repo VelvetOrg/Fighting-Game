@@ -19,10 +19,16 @@ public class HeadBob : MonoBehaviour
     Vector3 parent; //Holds last known position of the parent
     Vector3 initialPosition; //When the game was started pre head bob
 
+    //Stores the result
+    Vector3 bobFactor;
+
     //Get the height of the camera
     //Offset so tha bobs around the the center
     void Start() { height = transform.localPosition.y - (verticalAmount / 2);
         initialPosition = new Vector3(transform.localPosition.x, 0, transform.localPosition.z); }
+
+    //For other script
+    public Vector3 getBobAmount() { return new Vector3(bobFactor.x, bobFactor.y - height, 0) ; }
 
 	//Needs the position of the movement object
     public void Bob(PlayerController player)
@@ -35,9 +41,8 @@ public class HeadBob : MonoBehaviour
         counter += Vector3.Distance(parent, player.transform.position) * speed;
 
         //Update position based on a sine wave
-        transform.localPosition = initialPosition + new Vector3(
-            Mathf.Sin(counter) * horizontallAmount,
-            ((Mathf.Cos(counter * 2) * verticalAmount) * -1) + height, 0);
+        bobFactor = new Vector3(Mathf.Sin(counter) * horizontallAmount, ((Mathf.Cos(counter * 2) * verticalAmount) * -1) + height, 0);
+        transform.localPosition = initialPosition + bobFactor;
 
         //Since the detlta (difference in) position needs to be found
         parent = player.transform.position;
