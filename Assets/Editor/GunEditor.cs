@@ -36,8 +36,8 @@ public class GunEditor : Editor
         g.damage = EditorGUILayout.FloatField("Damage", g.damage);
         g.attackDuration = EditorGUILayout.FloatField("Attack Duration", g.attackDuration);
         g.range = EditorGUILayout.Slider("Range", g.range, 10, 100);
+        g.physicsForce = EditorGUILayout.Slider("Physics force", g.physicsForce, 0, 500);
         g.fireRate = EditorGUILayout.Slider("Fire rate", g.fireRate, 0, 200);
-
         EditorGUILayout.PropertyField(layer);
         EditorGUI.showMixedValue = layer.hasMultipleDifferentValues;
 

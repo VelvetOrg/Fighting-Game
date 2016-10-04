@@ -59,9 +59,6 @@ public class Player : MonoBehaviour
             //Actually rotate the player and camera
             mouseLook.transform.rotation = Quaternion.Euler(new Vector3(rotation.x, rotation.y, mouseLook.transform.rotation.eulerAngles.z));
             playerController.transform.rotation = Quaternion.Euler(new Vector3(playerController.transform.rotation.x, rotation.y, playerController.transform.rotation.eulerAngles.z));
-
-            //Update the arms rotation
-            if(armManager != null) armManager.UpdateArm(mouseLook);
         }
         else { Debug.LogWarning("No mouselook script found"); }
 

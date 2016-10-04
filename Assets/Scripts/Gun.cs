@@ -18,6 +18,7 @@ public class Gun : RangedWeapon
 
     public int burstCount = 3;
     public float fireRate = 100.0f;
+    public float physicsForce = 200.0f;
 
     //An optional laymask apply to the raycast
     public LayerMask ignoreLayers;
@@ -77,7 +78,7 @@ public class Gun : RangedWeapon
 
             //Draw a line from gun to the resultting raycast
             if (Physics.Raycast(rayOrigin, main.transform.forward, out hit, range, ignoreLayers))
-            {
+            {   
                 //Draw
                 line.SetPosition(1, hit.point);
 
@@ -86,7 +87,7 @@ public class Gun : RangedWeapon
                 if (hit.rigidbody != null)
                 {
                     //Apply a force
-                    hit.rigidbody.AddForce(-hit.normal * 100.0f);
+                    hit.rigidbody.AddForce(-hit.normal * physicsForce);
                 }
             }
 

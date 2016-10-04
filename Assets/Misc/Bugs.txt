@@ -1,9 +1,9 @@
 //This is a log of all the known issues with the game that are yet to be fixed
-Bullets do not travel straight from the gun when rotating
-Standing on an object tagged 'Rigidbody' Causes them to glitch out
-Rigidbodys do not realistically interact with the character controller
-The gun and arm can be depth culled when walking into objects
-When bunny hoppig the gun will continue the head bob sine wave for a frame
-Lerping of the arms rotation is not smooth
-Falling down a slope does not have any acceleration
-Pushing a rigidbody will cause them to glitch out (slightly)
+- Bullets do not travel straight from the gun when rotating
+- Standing on an object tagged 'Rigidbody' Causes them to glitch out
+- Rigidbodys do not realistically interact with the character controller
+- The gun and arm can be depth culled when walking into objects
+- When bunny hoppig the gun will continue the head bob sine wave for a frame
+- Lerping of the arms rotation is not smooth
+- Falling down a slope does not have any acceleration
+- Pushing a rigidbody will cause them to glitch out (slightly)
