@@ -53,7 +53,8 @@ public class PlayerController : MonoBehaviour
         body = GetComponent<CharacterController> ();
 
         //Ray distance should be how far down is the bottom of the collider
-        //Assumes transform is in the ctner
+        //Assumes transform is in the center
+        //Will be used later
         rayDistance = (body.height / 2) + body.radius + groundOffset;
 
         //Find character controller slope angle

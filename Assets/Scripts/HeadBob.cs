@@ -28,7 +28,7 @@ public class HeadBob : MonoBehaviour
     public void Bob(PlayerController player)
     {
         //Only bob when not jumping
-        if (!player.isGrounded()) return;
+        if (!player.isGrounded()) { parent = player.transform.position; return; }
 
         //Continue
         //This means that the speed of bobbing will be affected by the character move speed
