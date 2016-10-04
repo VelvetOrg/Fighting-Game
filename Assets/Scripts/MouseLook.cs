@@ -39,7 +39,7 @@ public class MouseLook : MonoBehaviour
 
         //Limit looking upwards
         //Hard code the values
-        rotation.x = Mathf.Clamp(rotation.x, -80.0f, 80.0f);
+        rotation.x = Mathf.Clamp(rotation.x, -85.0f, 85.0f);
 
         //Apply smoothing
         //Use smooth damp because it will use the velocity of the mouse

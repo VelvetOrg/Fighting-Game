@@ -10,13 +10,17 @@ using System.Collections;
 //This class handles postion of the arm so that it will always point to where the user want to fire
 //It also handles equipping of weapons
 //Not finished yet
-public class ArmManager : MonoBehaviour
+public class GunManager : MonoBehaviour
 {
     //Publics
     public Transform hand; //The transform that attaches to the gun
 
+    //Holds the currently attached weapon
+    [HideInInspector]
+    public Weapon currentlyEquipt { get; private set; }
+
     //Will give the player a weapon
-    public Weapon EquiptWeapon(Weapon w)
+    public void EquiptWeapon(Weapon w)
     {
         //Just make sure that the publics have been set
         if (hand != null)
@@ -31,8 +35,8 @@ public class ArmManager : MonoBehaviour
             instanciatedWeapon.name = "Weapon";
 
             //Set
-            return instanciatedWeapon.GetComponent<Weapon>();
+            currentlyEquipt = instanciatedWeapon.GetComponent<Weapon>();
         }
-        else { Debug.LogWarning("No hand on the character"); return null; }
+        else { Debug.LogWarning("No hand on the character"); }
     }
 }

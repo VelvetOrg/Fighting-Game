@@ -18,12 +18,9 @@ public class Player : MonoBehaviour
     //Needs to communicate with the following scripts
     PlayerController playerController;
     PlayerInput playerInput;
-    ArmManager armManager;
+    GunManager gunManager;
     MouseLook mouseLook;
     HeadBob headBob;
-
-    //Holds the currently attached weapon 
-    Weapon equipt;
 
     //Get components
     void Start()
@@ -33,12 +30,12 @@ public class Player : MonoBehaviour
         playerInput      = GetComponent<PlayerInput>();
 
         //May possibly evaluate to null
-        armManager       = GetComponent<ArmManager>();
+        gunManager       = GetComponent<GunManager>();
         mouseLook        = GetComponentInChildren<MouseLook>();
         headBob          = GetComponentInChildren<HeadBob>();
         
         //Attach the gun to the hand
-        if(armManager != null) equipt = armManager.EquiptWeapon(startingWeapon);
+        if(gunManager != null) gunManager.EquiptWeapon(startingWeapon);
     }
     
     //Take values from input class and turn them into calls
@@ -63,10 +60,10 @@ public class Player : MonoBehaviour
         else { Debug.LogWarning("No mouselook script found"); }
 
         //This is handled by player input
-        if (equipt != null)
+        if (gunManager.currentlyEquipt != null)
         {
-            if (Input.GetMouseButton(0)) equipt.AttackHeld();
-            if (Input.GetMouseButtonUp(0)) equipt.AttackReleased();
+            if (Input.GetMouseButton(0)) gunManager.currentlyEquipt.AttackHeld();
+            if (Input.GetMouseButtonUp(0)) gunManager.currentlyEquipt.AttackReleased();
         }
         else { Debug.LogWarning("No gun is equipt to the player"); }
     }

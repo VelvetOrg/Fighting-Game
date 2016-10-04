@@ -11,6 +11,11 @@ using System.Collections;
 [RequireComponent(typeof(LineRenderer))]
 public class Gun : RangedWeapon
 {
+    //Where do shells spawn from
+    public bool useShellEjection = true;
+    public Transform shellEjectionPoint;
+    public GameObject shellPrefab;
+
     //There are three gun modes
     [System.Serializable]
     public enum Mode { Automatic, Burst, Single };
@@ -67,6 +72,9 @@ public class Gun : RangedWeapon
 
             //Wait for auto fire
             nextShoot = Time.time + (fireRate / 1000.0f);
+
+            //Create a shell
+            if(useShellEjection) Instantiate(shellPrefab, shellEjectionPoint.position, shellEjectionPoint.rotation);
 
             //Demo
             StartCoroutine(shootEffect());

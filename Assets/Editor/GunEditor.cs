@@ -42,8 +42,14 @@ public class GunEditor : Editor
         EditorGUI.showMixedValue = layer.hasMultipleDifferentValues;
 
         g.fireMode = (Gun.Mode)EditorGUILayout.EnumPopup("Fire mode", g.fireMode);
-        
+        g.useShellEjection = EditorGUILayout.Toggle("Use Shell Ejection", g.useShellEjection);
+
         //Get enum and draw burst count if active
         if (g.fireMode == Gun.Mode.Burst) { g.burstCount = EditorGUILayout.IntField("Burst count", g.burstCount); }
+        if (g.useShellEjection == true)
+        {
+            g.shellEjectionPoint = EditorGUILayout.ObjectField("Shell Ejection", g.shellEjectionPoint, typeof(Transform), true) as Transform;
+            g.shellPrefab = EditorGUILayout.ObjectField("Shell Prefab", g.shellPrefab, typeof(GameObject), true) as GameObject;
+        }
     }
 }
