@@ -24,32 +24,33 @@ public class GunEditor : Editor
         layer      = serializedObject.FindProperty("ignoreLayers");
     }
 
-    //Allow th burst rate values depending on the state of the enum
+    //Allow the burst rate values depending on the state of the enum
     public override void OnInspectorGUI()
     {
         //Get gun class
-        Gun g = (Gun)target;
+        Gun gun = (Gun)target;
 
         //Draw other values
         //Temporary
-        g.end = EditorGUILayout.ObjectField("Barrel", g.end, typeof(Transform), true) as Transform;
-        g.damage = EditorGUILayout.FloatField("Damage", g.damage);
-        g.attackDuration = EditorGUILayout.FloatField("Attack Duration", g.attackDuration);
-        g.range = EditorGUILayout.Slider("Range", g.range, 10, 100);
-        g.physicsForce = EditorGUILayout.Slider("Physics force", g.physicsForce, 0, 500);
-        g.fireRate = EditorGUILayout.Slider("Fire rate", g.fireRate, 0, 200);
+        gun.end = EditorGUILayout.ObjectField("Barrel", gun.end, typeof(Transform), true) as Transform;
+        gun.damageGiven = EditorGUILayout.FloatField("Damage", gun.damageGiven);
+        gun.attackDuration = EditorGUILayout.FloatField("Attack Duration", gun.attackDuration);
+        gun.range = EditorGUILayout.Slider("Range", gun.range, 10, 100);
+        gun.physicsForce = EditorGUILayout.Slider("Physics force", gun.physicsForce, 0, 500);
+        gun.fireRate = EditorGUILayout.Slider("Fire rate", gun.fireRate, 0, 200);
+        gun.damageGiven = EditorGUILayout.FloatField("Damage", gun.damageGiven);
         EditorGUILayout.PropertyField(layer);
         EditorGUI.showMixedValue = layer.hasMultipleDifferentValues;
 
-        g.fireMode = (Gun.Mode)EditorGUILayout.EnumPopup("Fire mode", g.fireMode);
-        g.useShellEjection = EditorGUILayout.Toggle("Use Shell Ejection", g.useShellEjection);
+        gun.fireMode = (Gun.FireMode)EditorGUILayout.EnumPopup("Fire mode", gun.fireMode);
+        gun.useShellEjection = EditorGUILayout.Toggle("Use Shell Ejection", gun.useShellEjection);
 
         //Get enum and draw burst count if active
-        if (g.fireMode == Gun.Mode.Burst) { g.burstCount = EditorGUILayout.IntField("Burst count", g.burstCount); }
-        if (g.useShellEjection == true)
+        if (gun.fireMode == Gun.FireMode.Burst) { gun.burstCount = EditorGUILayout.IntField("Burst count", gun.burstCount); }
+        if (gun.useShellEjection == true)
         {
-            g.shellEjectionPoint = EditorGUILayout.ObjectField("Shell Ejection", g.shellEjectionPoint, typeof(Transform), true) as Transform;
-            g.shellPrefab = EditorGUILayout.ObjectField("Shell Prefab", g.shellPrefab, typeof(GameObject), true) as GameObject;
+            gun.shellEjectionPoint = EditorGUILayout.ObjectField("Shell Ejection", gun.shellEjectionPoint, typeof(Transform), true) as Transform;
+            gun.shellPrefab = EditorGUILayout.ObjectField("Shell Prefab", gun.shellPrefab, typeof(GameObject), true) as GameObject;
         }
     }
 }

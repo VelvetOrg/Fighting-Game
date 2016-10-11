@@ -10,7 +10,7 @@ using System.Collections;
 //Needs the following
 [RequireComponent(typeof(PlayerController))]
 [RequireComponent(typeof(PlayerInput))]
-public class Player : MonoBehaviour
+public class Player : Entity
 {
     //Temporary
     public Weapon startingWeapon; //Temporary, these will later be picked up
@@ -20,11 +20,13 @@ public class Player : MonoBehaviour
     PlayerInput playerInput;
     GunManager gunManager;
     MouseLook mouseLook;
-    HeadBob headBob;
+    HeadBob headBobber;
 
     //Get components
-    void Start()
+    protected override void Start()
     {
+        base.Start();
+
         //These will always work
         playerController = GetComponent<PlayerController>();
         playerInput      = GetComponent<PlayerInput>();
@@ -32,10 +34,10 @@ public class Player : MonoBehaviour
         //May possibly evaluate to null
         gunManager       = GetComponent<GunManager>();
         mouseLook        = GetComponentInChildren<MouseLook>();
-        headBob          = GetComponentInChildren<HeadBob>();
+        headBobber          = GetComponentInChildren<HeadBob>();
         
         //Attach the gun to the hand
-        if(gunManager != null) gunManager.EquiptWeapon(startingWeapon);
+        if(gunManager != null) gunManager.EquipWeapon(startingWeapon);
     }
     
     //Take values from input class and turn them into calls
@@ -45,7 +47,7 @@ public class Player : MonoBehaviour
         playerController.Move(playerInput.inputAxis);
 
         //Apply if availible
-        if (headBob != null) headBob.Bob(playerController);
+        if (headBobber != null) headBobber.Bob(playerController);
         else { Debug.LogWarning("No head bob script on camera"); }
 
         //Apply mouse look

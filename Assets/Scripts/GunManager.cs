@@ -20,7 +20,7 @@ public class GunManager : MonoBehaviour
     public Weapon currentlyEquipt { get; private set; }
 
     //Will give the player a weapon
-    public void EquiptWeapon(Weapon w)
+    public void EquipWeapon(Weapon weapon)
     {
         //Just make sure that the publics have been set
         if (hand != null)
@@ -31,11 +31,11 @@ public class GunManager : MonoBehaviour
             if (hand.childCount > 0) { Destroy(hand.GetChild(0).gameObject); Debug.LogWarning("Removed weapon"); }
 
             //Add the gun prefab
-            GameObject instanciatedWeapon = Instantiate(w.gameObject, hand, false) as GameObject;
-            instanciatedWeapon.name = "Weapon";
+            GameObject instantiatedWeapon = Instantiate(weapon.gameObject, hand, false) as GameObject;
+            instantiatedWeapon.name = "Gun Weapon (Instantiated at Runtime)";
 
             //Set
-            currentlyEquipt = instanciatedWeapon.GetComponent<Weapon>();
+            currentlyEquipt = instantiatedWeapon.GetComponent<Weapon>();
         }
         else { Debug.LogWarning("No hand on the character"); }
     }

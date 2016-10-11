@@ -18,12 +18,14 @@ public class Gun : RangedWeapon
 
     //There are three gun modes
     [System.Serializable]
-    public enum Mode { Automatic, Burst, Single };
-    public Mode fireMode = Mode.Single;
+    public enum FireMode { Automatic, Burst, Single };
+    public FireMode fireMode = FireMode.Single;
 
     public int burstCount = 3;
     public float fireRate = 100.0f;
     public float physicsForce = 200.0f;
+    public float damageGiven;
+
 
     //An optional laymask apply to the raycast
     public LayerMask ignoreLayers;
@@ -61,14 +63,14 @@ public class Gun : RangedWeapon
         if (Time.time > nextShoot)
         {
             //Lower burst shot count
-            if (fireMode == Mode.Burst)
+            if (fireMode == FireMode.Burst)
             {
                 if (burstShotsRemaining <= 0) return;
                 burstShotsRemaining--;
             }
 
             //Just fire once when held
-            if (fireMode == Mode.Single) { if (!triggerReleased) { return; } }
+            if (fireMode == FireMode.Single) { if (!triggerReleased) { return; } }
 
             //Wait for auto fire
             nextShoot = Time.time + (fireRate / 1000.0f);
@@ -97,6 +99,9 @@ public class Gun : RangedWeapon
                     //Apply a force
                     hit.rigidbody.AddForce(-hit.normal * physicsForce);
                 }
+
+                if (hit.transform.gameObject.GetComponent<Enemy>() != null)
+                    hit.transform.gameObject.GetComponent<Enemy>().Damage(damageGiven);                
             }
 
             else { line.SetPosition(1, main.transform.position + (main.transform.forward * 50)); }
