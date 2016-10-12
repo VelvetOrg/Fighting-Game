@@ -36,6 +36,7 @@ GameObject:
   - 4: {fileID: 4000010491464526}
   - 33: {fileID: 33000011012256908}
   - 23: {fileID: 23000013250653470}
+  - 65: {fileID: 65000013499890146}
   m_Layer: 0
   m_Name: Box
   m_TagString: Untagged
@@ -85,6 +86,7 @@ GameObject:
   - 4: {fileID: 4000010901002046}
   - 33: {fileID: 33000012396596114}
   - 23: {fileID: 23000012880898268}
+  - 65: {fileID: 65000012126710992}
   m_Layer: 0
   m_Name: Box
   m_TagString: Untagged
@@ -102,6 +104,7 @@ GameObject:
   - 4: {fileID: 4000010974810472}
   - 33: {fileID: 33000013711119892}
   - 23: {fileID: 23000013296187830}
+  - 65: {fileID: 65000010933884480}
   m_Layer: 0
   m_Name: Box
   m_TagString: Untagged
@@ -329,6 +332,42 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000013619702744}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &65000010933884480
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013619702744}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &65000012126710992
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013460496688}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &65000013499890146
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011679882354}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &114000013083018200
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -344,6 +383,7 @@ MonoBehaviour:
   damage: 1
   attackDuration: 0.02
   range: 50
+  useShellEjection: 1
   shellEjectionPoint: {fileID: 4000010691704060}
   shellPrefab: {fileID: 1000010313307850, guid: 4db96951b6941184bafee9c64099d58c,
     type: 2}
@@ -351,6 +391,7 @@ MonoBehaviour:
   burstCount: 3
   fireRate: 50
   physicsForce: 200
+  damageGiven: 5
   ignoreLayers:
     serializedVersion: 2
     m_Bits: 4294966015

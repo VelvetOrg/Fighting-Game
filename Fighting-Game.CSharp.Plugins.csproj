@@ -27,7 +27,7 @@
     <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_1;UNITY_5_4;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_VSTU;CROSS_PLATFORM_INPUT</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_1;UNITY_5_4;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU;CROSS_PLATFORM_INPUT</DefineConstants>
     <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -37,7 +37,7 @@
     <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_1;UNITY_5_4;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_VSTU;CROSS_PLATFORM_INPUT</DefineConstants>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_1;UNITY_5_4;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU;CROSS_PLATFORM_INPUT</DefineConstants>
     <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
   </PropertyGroup>
   <ItemGroup>
@@ -64,45 +64,80 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\Antialiasing.cs" />
-    <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\Bloom.cs" />
-    <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\BloomAndFlares.cs" />
-    <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\BloomOptimized.cs" />
-    <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\Blur.cs" />
-    <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\BlurOptimized.cs" />
-    <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\CameraMotionBlur.cs" />
-    <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionCurves.cs" />
-    <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionLookup.cs" />
-    <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionRamp.cs" />
-    <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\ContrastEnhance.cs" />
-    <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\ContrastStretch.cs" />
-    <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\CreaseShading.cs" />
-    <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\DepthOfField.cs" />
-    <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\DepthOfFieldDeprecated.cs" />
-    <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\EdgeDetection.cs" />
-    <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\Fisheye.cs" />
-    <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\GlobalFog.cs" />
-    <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\Grayscale.cs" />
-    <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\ImageEffectBase.cs" />
-    <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\ImageEffects.cs" />
-    <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\MotionBlur.cs" />
-    <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\NoiseAndGrain.cs" />
-    <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\NoiseAndScratches.cs" />
-    <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsBase.cs" />
-    <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsHelper.cs" />
-    <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\Quads.cs" />
-    <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\ScreenOverlay.cs" />
-    <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\ScreenSpaceAmbientObscurance.cs" />
-    <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\ScreenSpaceAmbientOcclusion.cs" />
-    <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\SepiaTone.cs" />
-    <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\SunShafts.cs" />
-    <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\TiltShift.cs" />
-    <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\Tonemapping.cs" />
-    <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\Triangles.cs" />
-    <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\Twirl.cs" />
-    <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\VignetteAndChromaticAberration.cs" />
-    <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\Vortex.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Image Effects\Natural Bloom\Shaders\SEEmissiveTextured.shader" />
+    <None Include="Assets\Image Effects\Natural Bloom\Shaders\SENaturalBloomAndDirtyLens.shader" />
+    <None Include="Assets\Image Effects\Natural Bloom\Shaders\SEParticlesAdditive.shader" />
+    <None Include="Assets\Image Effects\SESSAO\Resources\SESSAO.shader" />
+    <None Include="Assets\Image Effects\Shaders\BlendModesOverlay.shader" />
+    <None Include="Assets\Image Effects\Shaders\BlurEffectConeTaps.shader" />
+    <None Include="Assets\Image Effects\Shaders\CameraMotionBlur.shader" />
+    <None Include="Assets\Image Effects\Shaders\CameraMotionBlurDX11.shader" />
+    <None Include="Assets\Image Effects\Shaders\ChromaticAberrationShader.shader" />
+    <None Include="Assets\Image Effects\Shaders\ColorCorrection3DLut.shader" />
+    <None Include="Assets\Image Effects\Shaders\ColorCorrectionCurves.shader" />
+    <None Include="Assets\Image Effects\Shaders\ColorCorrectionCurvesSimple.shader" />
+    <None Include="Assets\Image Effects\Shaders\ColorCorrectionEffect.shader" />
+    <None Include="Assets\Image Effects\Shaders\ColorCorrectionSelective.shader" />
+    <None Include="Assets\Image Effects\Shaders\Contrast Stretch\Adaptation.shader" />
+    <None Include="Assets\Image Effects\Shaders\Contrast Stretch\Apply.shader" />
+    <None Include="Assets\Image Effects\Shaders\Contrast Stretch\Luminance.shader" />
+    <None Include="Assets\Image Effects\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+    <None Include="Assets\Image Effects\Shaders\ContrastComposite.shader" />
+    <None Include="Assets\Image Effects\Shaders\ConvertDepth.shader" />
+    <None Include="Assets\Image Effects\Shaders\CreaseApply.shader" />
+    <None Include="Assets\Image Effects\Shaders\EdgeDetectNormals.shader" />
+    <None Include="Assets\Image Effects\Shaders\FisheyeShader.shader" />
+    <None Include="Assets\Image Effects\Shaders\GlobalFog.shader" />
+    <None Include="Assets\Image Effects\Shaders\GrayscaleEffect.shader" />
+    <None Include="Assets\Image Effects\Shaders\MotionBlur.shader" />
+    <None Include="Assets\Image Effects\Shaders\MotionBlurClear.shader" />
+    <None Include="Assets\Image Effects\Shaders\NoiseAndGrain.shader" />
+    <None Include="Assets\Image Effects\Shaders\NoiseAndGrainDX11.shader" />
+    <None Include="Assets\Image Effects\Shaders\NoiseEffectShaderRGB.shader" />
+    <None Include="Assets\Image Effects\Shaders\NoiseEffectShaderYUV.shader" />
+    <None Include="Assets\Image Effects\Shaders\PrepareSunShaftsBlur.shader" />
+    <None Include="Assets\Image Effects\Shaders\RadialBlur.shader" />
+    <None Include="Assets\Image Effects\Shaders\SSAOShader.shader" />
+    <None Include="Assets\Image Effects\Shaders\ScreenSpaceAmbientObscurance.shader" />
+    <None Include="Assets\Image Effects\Shaders\ScreenSpaceRaytrace.cginc" />
+    <None Include="Assets\Image Effects\Shaders\SepiaToneEffect.shader" />
+    <None Include="Assets\Image Effects\Shaders\ShowAlphaChannel.shader" />
+    <None Include="Assets\Image Effects\Shaders\SimpleClear.shader" />
+    <None Include="Assets\Image Effects\Shaders\SunShaftsComposite.shader" />
+    <None Include="Assets\Image Effects\Shaders\Tonemapper.shader" />
+    <None Include="Assets\Image Effects\Shaders\TwirlEffect.shader" />
+    <None Include="Assets\Image Effects\Shaders\VignettingShader.shader" />
+    <None Include="Assets\Image Effects\Shaders\VortexEffect.shader" />
+    <None Include="Assets\Image Effects\Shaders\_Antialiasing\DLAA.shader" />
+    <None Include="Assets\Image Effects\Shaders\_Antialiasing\FXAA2.shader" />
+    <None Include="Assets\Image Effects\Shaders\_Antialiasing\FXAA3Console.shader" />
+    <None Include="Assets\Image Effects\Shaders\_Antialiasing\FXAAPreset2.shader" />
+    <None Include="Assets\Image Effects\Shaders\_Antialiasing\FXAAPreset3.shader" />
+    <None Include="Assets\Image Effects\Shaders\_Antialiasing\NFAA.shader" />
+    <None Include="Assets\Image Effects\Shaders\_Antialiasing\SSAA.shader" />
+    <None Include="Assets\Image Effects\Shaders\_BloomAndFlares\Blend.shader" />
+    <None Include="Assets\Image Effects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+    <None Include="Assets\Image Effects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+    <None Include="Assets\Image Effects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+    <None Include="Assets\Image Effects\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+    <None Include="Assets\Image Effects\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+    <None Include="Assets\Image Effects\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+    <None Include="Assets\Image Effects\Shaders\_BloomAndFlares\MobileBloom.shader" />
+    <None Include="Assets\Image Effects\Shaders\_BloomAndFlares\MobileBlur.shader" />
+    <None Include="Assets\Image Effects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+    <None Include="Assets\Image Effects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+    <None Include="Assets\Image Effects\Shaders\_BloomAndFlares\VignetteShader.shader" />
+    <None Include="Assets\Image Effects\Shaders\_DepthOfField\Bokeh34.shader" />
+    <None Include="Assets\Image Effects\Shaders\_DepthOfField\DepthOfField34.shader" />
+    <None Include="Assets\Image Effects\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
+    <None Include="Assets\Image Effects\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+    <None Include="Assets\Image Effects\Shaders\_DepthOfField\SeparableBlur.shader" />
+    <None Include="Assets\Image Effects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+    <None Include="Assets\Image Effects\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
+    <None Include="Assets\Image Effects\Shaders\frag_ao.cginc" />
+    <None Include="Assets\Misc\Bugs.txt" />
     <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\BlendModesOverlay.shader" />
     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\BlurEffectConeTaps.shader" />
@@ -171,15 +206,6 @@
     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\frag_ao.cginc" />
-    <None Include="Assets\Standard Assets\Effects\Projectors\Guidelines.txt" />
-    <None Include="Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
-    <None Include="Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
-    <None Include="Assets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularDisplacement.shader" />
-    <None Include="Assets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularSmooth.shader" />
-    <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
-    <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
-    <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
-    <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>

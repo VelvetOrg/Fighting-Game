@@ -19,6 +19,11 @@ public class GunManager : MonoBehaviour
     [HideInInspector]
     public Weapon currentlyEquipt { get; private set; }
 
+    void Awake()
+    {
+        hand = GameObject.FindGameObjectWithTag("Hand").transform;
+    }
+
     //Will give the player a weapon
     public void EquipWeapon(Weapon weapon)
     {
