@@ -1,2 +1,2 @@
 # Fighting-Game
-A battle game set in an arena. Has an amazing Character Controller.
+A first-person shooter battle game set in an arena. Featuring the most top-notch and fine custom Character Controller.
