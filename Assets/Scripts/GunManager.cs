@@ -21,7 +21,12 @@ public class GunManager : MonoBehaviour
 
     void Awake()
     {
-        hand = GameObject.FindGameObjectWithTag("Hand").transform;
+        if (Camera.main.gameObject.name == "Camera")
+            hand = GameObject.FindGameObjectWithTag("Hand").transform;
+        else if (Camera.main.gameObject.name == "Beauty Camera")
+            hand = GameObject.FindGameObjectWithTag("Beauty Hand").transform;
+        else if (Camera.main.gameObject.name == "Glitch Camera")
+            hand = GameObject.FindGameObjectWithTag("Glitch Hand").transform;
     }
 
     //Will give the player a weapon
