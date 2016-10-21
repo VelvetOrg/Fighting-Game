@@ -30,10 +30,10 @@ public class PlayerController : MonoBehaviour
     public float jump = 10.0f; //Jump force - in units
 
     //Holds the fake collider
-    Rigidbody childCol;
+    Rigidbody attachedRigidbody;
 
 	//Privates
-	CharacterController body; //Holds information on events
+	CharacterController characterController; //Holds information on events
     Vector3 direction; //Move dir
     Vector3 contact; //When checking for collision
     RaycastHit hit; //Generaic value
@@ -50,18 +50,18 @@ public class PlayerController : MonoBehaviour
     void Awake ()
     {
         //Get controller
-        body = GetComponent<CharacterController> ();
+        characterController = GetComponent<CharacterController> ();
 
         //Ray distance should be how far down is the bottom of the collider
         //Assumes transform is in the center
         //Will be used later
-        rayDistance = (body.height / 2) + body.radius + groundOffset;
+        rayDistance = (characterController.height / 2) + characterController.radius + groundOffset;
 
         //Find character controller slope angle
-        slideLimit = body.slopeLimit - 0.1f;
+        slideLimit = characterController.slopeLimit - 0.1f;
 
         //Find
-        if(childCol == null) { childCol = GetComponentInChildren<Rigidbody>(); }
+        if(attachedRigidbody == null) { attachedRigidbody = GetComponentInChildren<Rigidbody>(); }
     }
 
     //Called by the player input class
@@ -120,11 +120,11 @@ public class PlayerController : MonoBehaviour
         //Body returns the collision types
         //Convert that to a grounded stat
         //https://docs.unity3d.com/ScriptReference/CharacterController.Move.html
-        CollisionFlags g = body.Move(direction * Time.deltaTime);
+        CollisionFlags g = characterController.Move(direction * Time.deltaTime);
         grounded = (g & CollisionFlags.Below) != 0;
 
         //Fake physics
-        if(childCol != null) childCol.velocity = direction * Time.deltaTime;
+        if(attachedRigidbody != null) attachedRigidbody.velocity = direction * Time.deltaTime;
 	}
 
     //Has a collision hit occured

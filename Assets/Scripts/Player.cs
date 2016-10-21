@@ -1,7 +1,7 @@
-﻿/* 
- * Owned by Velvet-Org. Copyright 2016 - 
+﻿/*
+ * Owned by Velvet-Org. Copyright 2016 -
  * This code is licenced under: Apache 2.0
- * Cameron Bell, Ruchir Bapat 
+ * Cameron Bell, Ruchir Bapat
 */
 
 using UnityEngine;
@@ -14,14 +14,16 @@ public class Player : Entity
 {
     //Temporary
     public Weapon startingWeapon; //Temporary, these will later be picked up
-    
+    float walkingSpeed;
+    float normalSpeed;
+
     //Needs to communicate with the following scripts
     PlayerController playerController;
     PlayerInput playerInput;
     GunManager gunManager;
     MouseLook mouseLook;
     HeadBob headBobber;
-
+    
     //Get components
     protected override void Start()
     {
@@ -35,14 +37,21 @@ public class Player : Entity
         gunManager       = GetComponent<GunManager>();
         mouseLook        = GetComponentInChildren<MouseLook>();
         headBobber          = GetComponentInChildren<HeadBob>();
-        
+
         //Attach the gun to the hand
         if(gunManager != null) gunManager.EquipWeapon(startingWeapon);
+
+        normalSpeed = playerController.moveSpeed;
+        walkingSpeed = normalSpeed * 0.1f;
     }
-    
+
     //Take values from input class and turn them into calls
-   	void Update ()
+    void Update()
     {
+        bool isShiftHeld = (Input.GetKeyDown(KeyCode.LeftShift) || Input.GetKeyDown(KeyCode.RightShift));
+        if (isShiftHeld) { playerController.moveSpeed = walkingSpeed; }
+        if (playerController.moveSpeed != normalSpeed && !isShiftHeld) { playerController.moveSpeed = normalSpeed; }
+
         //Force player to move via the axis
         playerController.Move(playerInput.inputAxis);
 

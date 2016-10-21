@@ -6,8 +6,8 @@ using System.Collections;
 public class Shell : MonoBehaviour
 {
     //The force applied to the shell when spawned out of the gun
-    public float forceMinimum = 100.0f;
-    public float forceMaximum = 200.0f;
+    public float forceMinimum;
+    public float forceMaximum;
     public float fadeTime = 2.0f;
     public float lifetime = 4.0f;
 

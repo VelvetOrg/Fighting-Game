@@ -385,13 +385,13 @@ MonoBehaviour:
   range: 50
   useShellEjection: 1
   shellEjectionPoint: {fileID: 4000010691704060}
-  shellPrefab: {fileID: 1000010313307850, guid: 4db96951b6941184bafee9c64099d58c,
+  shellPrefab: {fileID: 1000011041984110, guid: 1203fbe2aef7d324eaa139bbdc0052db,
     type: 2}
-  fireMode: 2
-  burstCount: 3
+  fireMode: 1
+  burstCount: 4
   fireRate: 50
   physicsForce: 200
-  damageGiven: 5
+  damageGiven: 7.5
   ignoreLayers:
     serializedVersion: 2
     m_Bits: 4294966015

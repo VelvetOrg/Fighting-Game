@@ -26,7 +26,7 @@ GameObject:
   - 114: {fileID: 114000014054642284}
   m_Layer: 0
   m_Name: Enemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -103,12 +103,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c16dde91cb36c445ad69494f56f72d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialHealth: 50
+  initialHealth: 40
   currentHealth: 0
   dead: 0
   attackPause: 1
   damagePerHit: 1
   moveSpeed: 5
+  attackSpeed: 0
   hitsToKillPlayer: 3
   scanRate: 0
 --- !u!195 &195000013796379864

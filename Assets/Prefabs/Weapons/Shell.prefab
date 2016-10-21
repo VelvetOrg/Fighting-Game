@@ -118,7 +118,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0d34c1cfb32cbc4e8e9f7da757ff5f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceMinimum: 100
-  forceMaximum: 200
+  forceMinimum: 800
+  forceMaximum: 1600
   fadeTime: 2
   lifetime: 4

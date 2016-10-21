@@ -60,6 +60,9 @@ public class Enemy : Entity
     //Check if the player is NULL
     bool playerAlive;
 
+	//Event for when any enemy dies
+	public static event System.Action OnEnemyDeath;
+
     //Finds player
     void Awake()
     {
