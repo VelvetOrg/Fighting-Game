@@ -8,7 +8,7 @@ using UnityEngine;
 using System.Collections;
 
 //Requires a NavMeshAgent in order to follow the player
-[RequireComponent(typeof(NavMeshAgent))]
+[RequireComponent(typeof(UnityEngine.AI.NavMeshAgent))]
 public class Enemy : Entity
 {
     //The player to follow
@@ -43,7 +43,7 @@ public class Enemy : Entity
     private Action currentlyDoing;
 
     //Reference to attached NavMeshAgent
-    private NavMeshAgent agent;
+    private UnityEngine.AI.NavMeshAgent agent;
 
     //Reference to the entity of the player
     Entity playerEntity;
@@ -82,7 +82,7 @@ public class Enemy : Entity
         base.Start();
 
         //Create reference to NavMeshAgent
-        agent = GetComponent<NavMeshAgent>();
+        agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
 
         //Set the movement speed of 'this' enemy   
         agent.speed = moveSpeed;
